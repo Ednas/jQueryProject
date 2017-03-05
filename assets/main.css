@@ -19,12 +19,18 @@ body {
 h1, h2, h3, h4 {
   margin: 10px 0 15px;
 }
+h2 {
+  text-align: center;
+}
 p, ul {
   margin: 10px 0;
 }
 
 ul li {
   margin-left: 30px;;
+}
+span {
+  color: #e91e63;
 }
 
 /******************/
@@ -146,8 +152,15 @@ ul li {
   display: block;
 }
 
+#badge {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .earnedBadges {
-  display: inline-block;
+  display: inline-block; 
 }
 
 .earnedBadges h3 {
@@ -158,8 +171,9 @@ ul li {
 
 .earnedBadges img {
   border: none;
-  height: 150px;
+  height: 100px;
   margin-bottom: 20px;
   max-width: 100%;
-  width: 150px;
+  width: 100px;
+  padding: 5px;
 }

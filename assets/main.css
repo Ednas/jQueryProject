@@ -191,3 +191,15 @@ span {
   width: 100px;
   padding: 5px;
 }
+
+footer {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  background: #e91e63;
+  color: white;
+  font-size: 24px;  
+}
+footer a {
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, serif;
+}

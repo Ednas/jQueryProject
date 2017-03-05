@@ -118,7 +118,7 @@ span {
 }
 
 #badges {
-  text-align: center;
+  text-align: center;  
 }
 
 .course {
@@ -150,6 +150,20 @@ span {
 
 .course a {
   display: block;
+}
+
+#badges {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#inProgress {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #badge {

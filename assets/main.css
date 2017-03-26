@@ -174,7 +174,8 @@ span {
 }
 
 .earnedBadges {
-  display: inline-block; 
+  display: inline-block;
+  margin: 0.5em;
 }
 
 .earnedBadges h3 {
@@ -190,6 +191,20 @@ span {
   max-width: 100%;
   width: 100px;
   padding: 5px;
+}
+
+.earnedBadges .hovertext {
+  overflow: hidden;
+  visibility: hidden;
+  position: absolute;
+}
+
+.earnedBadges:hover .hovertext {
+  visibility: visible;
+  background: #e91e63;
+  font-size: 15px;
+  color: #000;
+  padding: 2px 5px;
 }
 
 footer {

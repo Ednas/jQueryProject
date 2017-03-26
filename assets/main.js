@@ -26,13 +26,15 @@ $.ajax({
    		//Badges earned
    	for (var i = 0; i < response.badges.length; i++) {
    	$('#badge').append(
-   		'<div class="earnedBadges"><h3><img src=' + response.badges[i].badge + '>'
-   		+ '</h3>'
-   		+'</div>');   		
+      '<div class="earnedBadges"><div class="hovertext">'
+      + response.badges[i].name
+      + '</div><h3><img src=' + response.badges[i].badge
+      + '></h3></div>');		
 	   	};
     $('#numBadges').append(response.badges.length);
     $('#numProgress').append(response.courses.in_progress.length);
-    $('#numCompleted').append(response.courses.completed.length);        
+    $('#numCompleted').append(response.courses.completed.length);   
+
       }
   });
 });

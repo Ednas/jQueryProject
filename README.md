@@ -4,8 +4,11 @@ I am displaying information about my progress in the online coding development p
 
 View the completed project on my portfolio at http://jquerybadges.edna.tech/
 
-Feel free to fork this project to use with your own CodeSchool progress, just make sure to change the relevant data to your own.
+~~Feel free to fork this project to use with your own CodeSchool progress, just make sure to change the relevant data to your own.~~
 
-*CodeSchool.com has been acquired by Pluralsight and the CodeSchool API no longer works to make the AJAX calls. Unfortunately the link now shows empty divs.*
+**CodeSchool.com has been acquired by Pluralsight and the CodeSchool API no longer works to make the AJAX calls. Unfortunately the link now shows empty divs.**
 
+This is what the top header looked like with my profile badge and points
+![](./assets/codeschooljax.png)
+This is what the badges displayed looked like
 ![](./assets/codeschool.png)
